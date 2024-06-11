@@ -9,3 +9,12 @@ My linked-in profile:
 https://www.linkedin.com/in/sarpakgunduz/
 
 The code defines an actor that can perform token transfers using the Icrc1Ledger. Returning either a success with a block index or an error message. The debug prints help trace the transfer process by showing the transfer amount and the target account details.
+
+
+!! For Project Information !!
+
+Canister ID: 6cajv-qqaaa-aaaab-qactq-cai
+
+And the result of a transfer try:
+› transfer(record {toAccount=record {owner=principal "6cajv-qqaaa-aaaab-qactq-cai"; subaccount=null}; amount=5})
+(variant {ok=0})
